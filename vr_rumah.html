@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <!--Membuat atap-->
+            <a-cone position="0 2 0" radius-bottom="4" radius-top="0" height="2" color="#000080"></a-cone>
+            
+            <!--Membuat dinding-->
+            <a-box position="-2 0 0" width="1" height="2" depth="5" color="#2F4F4F"></a-box>
+            <a-box position="2 0 0" width="1" height="2" depth="5" color="#2F4F4F"></a-box>
+            <a-box position="0 0 -2.5" width="5" height="2" depth="1" color="#2F4F4F"></a-box>
+            <a-box position="0 0 2.5" width="5" height="2" depth="1" color="#2F4F4F"></a-box>
+    
+            <!--Membuat jendela-->
+            <a-box position="-2 0.5 3" width="0.6" height="0.5" depth="0.1" color="#87CEFA"></a-box>
+            <a-box position="2 0.5 3" width="0.6" height="0.5" depth="0.1" color="#87CEFA"></a-box>
+
+            <!--Membuat pintu-->
+            <a-box position="0 0.5 3" width="0.8" height="1" depth="0.1" color="#8B0000"></a-box>
+
+            <!--Membuat teras-->
+            <a-plane position="0 0 0" rotation="-90 0 0" width="30" height="30" color="#228B22"></a-plane>
+        </a-scene>
+    </body>
+</html>
